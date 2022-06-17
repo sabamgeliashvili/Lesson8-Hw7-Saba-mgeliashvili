@@ -34,15 +34,18 @@
 .title1{
     width: 600px;
     font-size: 78px;
+    font-family: 'Lato bold';
 }
 .paragraph1{
     font-size: 22px;
     margin-top: 42px;
+    font-family: 'Roboto regular';
 }
 .button-text{
     font-size: 23px;
 margin-left: 25px;
-color: white;
+color: white; 
+font-family: 'Roboto medium';
 }
 .button{
     width: 263px;
@@ -55,6 +58,10 @@ color: white;
     margin-top: 84px;
     transition-property: all;
     transition-duration: 2s;
+    font-family: 'Poppins regular';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 .leftblock{
     margin-left: 100px;
@@ -155,6 +162,7 @@ background: linear-gradient(90deg, rgba(255,4,4,1) 0%, rgba(83,11,11,1) 100%, rg
     width: 328px;
     text-align: center;
     color: white;
+    font-family: 'Roboto regular';
 }
 .headline{
     display: flex;
@@ -162,23 +170,25 @@ background: linear-gradient(90deg, rgba(255,4,4,1) 0%, rgba(83,11,11,1) 100%, rg
     align-items: center;
     flex-direction: column;
     margin-top: 78px;
-    mar
+    
   
 }
 .headline-text{
     color: #747474;
     width: 712px;
     text-align:center;
-    
+    font-family: 'Roboto regular';
 }
 .headline-title{
     font-size: 20px;
     color: blue;
     margin-bottom: 17px;
+    font-family: 'Lato bold';
 }
 .headline-title2{
     font-size: 40px;
     margin-bottom: 21px;
+    font-family: 'Lato bold';
 }
 /* hover */
 .button:hover{
