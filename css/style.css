@@ -30,6 +30,11 @@
     font-size: 20px;
     color: blue;
 }
+.tag-a{
+    color: blue;
+    transition-property: all;
+    transition-duration: 0.5s
+}
 /* section 1 */
 .title1{
     width: 600px;
@@ -190,9 +195,31 @@ background: linear-gradient(90deg, rgba(255,4,4,1) 0%, rgba(83,11,11,1) 100%, rg
     margin-bottom: 21px;
     font-family: 'Lato bold';
 }
+.button2{
+    width: 131px;
+    height: 45px;
+    background-color:wheat;
+    border-radius: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 84px;
+    transition-property: all;
+    transition-duration: 2s;
+    font-family: 'Poppins regular';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 /* hover */
 .button:hover{
     background-color:blueviolet;
+}
+.button2:hover{
+    background-color:blueviolet ;
+}
+.tag-a:hover{
+    color: red;
 }
 
 
